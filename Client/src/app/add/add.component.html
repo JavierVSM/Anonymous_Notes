@@ -1,0 +1,13 @@
+<form (submit)="addNote($event)">
+    <div>
+        <label for="name">Note</label>
+        <input type="text" name="name" [(ngModel)]="new.note">
+    </div>
+    <div>
+        <button type="submit">Add Note</button>
+    </div>
+</form>
+
+<div *ngIf="finalmessage">
+    {{finalmessage}}
+</div>

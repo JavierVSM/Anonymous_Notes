@@ -1,0 +1,22 @@
+.rootContainer{
+    margin: 20px;
+   }
+
+.containerA{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 250px;
+    padding-left: 250px;
+}
+
+.card{
+    padding: 20px;
+    display: block;
+    width: 500px;
+    height: 300px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    margin: 15px;
+    border: solid 1px black;
+}
